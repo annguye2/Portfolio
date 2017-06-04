@@ -108,7 +108,9 @@ html {
   border: 1px solid black;
 }
 
-
+#project-detail{
+margin-bottom: 20%;
+}
 /*  social icon section */
 #ul-1 {
     overflow: auto;
