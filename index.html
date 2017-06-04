@@ -50,11 +50,17 @@
 
       <!-- MID-PANEL: PROJECTS SECTION -->
       <div id='project-section' class="col-6 mid" ng-show='ctrl.showFirstSectionBoolean'>
+        <div class="row">
+          <div class="col-1"></div>
+           <div class="col-11">
+             <h3><span>General Assembly School Projects</span> </h3>
+           </div>
+        </div>
         <div class="row" id='project-detail'>
           <ul>
             <div class="row">
               <li>  <a href="https://annguye2.github.io/project_1/" target="_blank"><h4>Bai Cao</h4></a> </li>
-              <p>A Vietnamese Three Cards Game which each player is given a hand of 3 cards in the game. The hands are then compared,
+              <p class='project-title'>A Vietnamese Three Cards Game which each player is given a hand of 3 cards in the game. The hands are then compared,
                 and the person with the best hand wins. Click here for instruction <a href="https://www.vinagames.com/baicao.php" target="_blank">instructions</a> how to play the game.</p>
             </div>
             <div class="row">
@@ -64,63 +70,73 @@
             </div>
             <div class="row">
               <li>  <a href="https://brews-near-you.herokuapp.com/" target="_blank"><h4>Beers Near You</h4></a> </li>
-              <p> <a href="https://brews-near-you.herokuapp.com/" target="_blank">Beer Near You</a>
+              <p class='project-title'> <a href="https://brews-near-you.herokuapp.com/" target="_blank">Beer Near You</a>
                 is a web-app that could help beer-loving person to define the closest brewery location in your area.</p>
             </div>
             <div class="row">
               <li>  <a href="https://humanity-app-frontend.herokuapp.com/" target="_blank"><h4>Cards Against Humanity</h4></a> </li>
-              <p>Cards Against Humanity is a party game for horrible people.  Unlike most of the party games you've played before, Cards Against Humanity is as despicable and awkward as you and your friends.</p>
+              <p class='project-title'>Cards Against Humanity is a party game for horrible people.  Unlike most of the party games you've played before, Cards Against Humanity is as despicable and awkward as you and your friends.</p>
             </div>
             <div class="row">
               <li>  <a href="https://gop-api-frontend.herokuapp.com/" target="_blank"><h4>Geospatial Online Projects</h4></a> </li>
-              <p> <a href="https://github.com/annguye2/gop-app-frontend/blob/master/README.md" target="_blank">Geospatial online project (GOP) </a>is an web-based app where user can display
+              <p class='project-title'> <a href="https://github.com/annguye2/gop-app-frontend/blob/master/README.md" target="_blank">Geospatial online project (GOP) </a>is an web-based app where user can display
                 Feature Server URL provided by ArcGIS Services API<a href="https://github.com/annguye2/gop-app-frontend/blob/master/README.md" target="_blank">.  Readmore..</a></p>
             </div>
           </ul>
-          <!-- <select class="" name="">
-             <option value="">------------------------- your project -------------------</option>
-          </select> -->
+
         </div>
 
       </div>
 
       <!-- MID-PANEL: RESUME SECTION -->
       <div class="col-6 mid" ng-show='ctrl.showSecondSectionBoolean'>
-        <h3>Resume</h3>
+        <div class="row">
+          <div class="col-4"></div>
+           <div class="col-8" id='resume'>
+             <h3><span>Resume</span> </h3>
+           </div>
+        </div>
+
         <iframe src="./public/resume.html" style="width:100%; height:500px;" frameborder="1"></iframe>
       </div>
 
       <!-- MID-PANEL: THIRD SECTION -->
       <div class="col-6 mid" ng-show='ctrl.showThirdSectionBoolean'>
-        <h3> <a href="https://www.netflix.com/" target="_blank">Favorite Netflix Tivi shows</a></h3>
+        <div class="row">
+          <div class="col-1"></div>
+           <div class="col-11">
+             <h3><a href="https://www.netflix.com/" target="_blank"><span>Favorite Netflix Tivi shows</span> </a></h3>
+           </div>
+        </div>
+
            <div class="row" id='movie-section'>
              <ul>
                <div class="row">
-                 <li> <a href="https://en.wikipedia.org/wiki/Blue_Bloods_(TV_series)"  target="_blank"> <h4>Blue Bloods</h4></a></li>
+                 <li> <a href="https://en.wikipedia.org/wiki/Blue_Bloods_(TV_series)"  target="_blank"> <h5>Blue Bloods</h5></a></li>
                  <p class='movie'>Blue Bloods is an American police procedural and legal drama series that airs on CBS. The series is filmed on location in New York City with occasional references to nearby suburbs</p>
                </div>
                <div class="row">
-                 <li> <a href="https://en.wikipedia.org/wiki/Spartacus"  target="_blank"><h4>Spartacus</h4></a></li>
+                 <li> <a href="https://en.wikipedia.org/wiki/Spartacus"  target="_blank"><h5>Spartacus</h5></a></li>
                  <p class='movie'>Spartacus (Greek: Σπάρτακος Spártakos; Latin: Spartacus;[1] c. 111–71 BC) was a Thracian gladiator who, along with the Gauls Crixus, Gannicus, Castus, and Oenomaus,
                    was one of the escaped slave leaders in the Third Servile War, a major slave uprising against the Roman Republic</p>
                </div>
                <div class="row">
-                 <li> <a href="https://en.wikipedia.org/wiki/The_Last_Kingdom_(TV_series)"  target="_blank"> <h4>The Last Kingdom</h4></a></li>
+                 <li> <a href="https://en.wikipedia.org/wiki/The_Last_Kingdom_(TV_series)"  target="_blank"> <h5>The Last Kingdom</h5></a></li>
                  <p class='movie'>The Last Kingdom is a British historical fiction television series based on Bernard Cornwell’s The Saxon Stories series of novels. The series premiered on 10 October 2015 on BBC America,
                    and on BBC Two in the UK on 22 October 2015. A second series of eight episodes co-produced by Netflix after the exit of BBC America began airing on BBC Two in the UK</p>
                </div>
                <div class="row">
-                 <li> <a href="https://en.wikipedia.org/wiki/Person_of_Interest_(TV_series)"  target="_blank"> <h4>Person of Interest</h4></a></li>
+                 <li> <a href="https://en.wikipedia.org/wiki/Person_of_Interest_(TV_series)"  target="_blank"> <h5>Person of Interest</h5></a></li>
                  <p class='movie'>Person of Interest is an American science fiction crime drama[1] television series that aired on CBS from September 22, 2011,[2] to June 21, 2016,[3] over five seasons, comprising a total of 103 episodes.</p>
                </div>
 
                <div class="row">
-                 <li> <a href="https://en.wikipedia.org/wiki/The_Blue_Planet"  target="_blank"> <h4>The Blue Planet</h4></a></li>
+                 <li> <a href="https://en.wikipedia.org/wiki/The_Blue_Planet"  target="_blank"> <h5>The Blue Planet</h5></a></li>
                  <p class='movie'>The Blue Planet is a British nature documentary series created and produced by the BBC. It was premiered on 12 September 2001 in the United Kingdom. It is narrated by David Attenborough.</p>
                </div>
 
                <div class="row">
-                 <li> <a href="https://en.wikipedia.org/wiki/A_Cook%27s_Tour_(TV_series)"  target="_blank"> <h4>Anthony Bourdain: A Cook's Tour</h4></a></li>
+                 <li> <a href="https://en.wikipedia.org/wiki/A_Cook%27s_Tour_(TV_series)"  target="_blank"> <h5>Anthony Bourdain: A Cook's Tour</h5></a></li>
                  <p class='movie'>A Cook's Tour is a travel and food show that aired on the Food Network. Host Anthony Bourdain visits exotic countries and cities worldwide where hosts treat him to local culture and cuisine.</p>
                </div>
 
@@ -130,55 +146,58 @@
 
       <!-- MID-PANEL: FOURTH SECTION -->
       <div class="col-6 mid" ng-show='ctrl.showFourthSectionBoolean'>
-        <h3> Technical Resource Websites </h3>
         <div class="row">
+          <div class="col-1"></div>
+           <div class="col-11">
+             <h3><a href="https://www.netflix.com/" target="_blank"><span>Favorite Technical Resource Websites</span> </a></h3>
+           </div>
+        </div>
+        <div class="row" id='tech-resource'>
           <ul>
             <div class="row">
-              <li> <a href="https://stackoverflow.com/" target="_blank">Stack Overflow/Stack Overflow Community</a></li>
-              <p class='technical'> <a href="https://en.wikipedia.org/wiki/Stack_Overflow" target="_blank">Stack Overflow </a>
-                is a privately held website, the flagship site of the Stack Exchange Network,
-                created in 2008 by Jeff Atwood and Joel Spolsky. It was created to be a more
-                open alternative to earlier question and answer sites such as Experts-Exchange
-               <a href="https://en.wikipedia.org/wiki/Stack_Overflow" target="_blank">.  Read more..</a></p>
+              <li> <label for=""><a href="https://stackoverflow.com/" target="_blank">Stack Overflow/Stack Overflow Community</a></label> </li>
+                <p class='technical'> <a href="https://en.wikipedia.org/wiki/Stack_Overflow" target="_blank">Stack Overflow </a>
+                  is a privately held website, the flagship site of the Stack Exchange Network,
+                  created in 2008 by Jeff Atwood and Joel Spolsky.
+                  <a href="https://en.wikipedia.org/wiki/Stack_Overflow" target="_blank">.  Read more..</a></p>
               </div>
               <div class="row">
-                <li> <a href="http://getbootstrap.com/" target="_blank">Bootstrap/Bootstrap Community</a></li>
-                <p class='technical'> <a href="https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)" target="_blank">Bootstrap (front-end framework)</a>
-                  Bootstrap is a free and open-source front-end web framework for designing websites and web applications. It contains HTML- and
-                  CSS-based design templates for typography, forms, buttons, navigation and other interface components, as well as optional
-                  JavaScript extensions<a href="https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)" target="_blank">.  Read more..</a>.</p>
+                <li> <label for=""><a href="http://getbootstrap.com/" target="_blank">Bootstrap/Bootstrap Community</a></li></label>
+                  <p class='technical'> <a href="https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)" target="_blank">Bootstrap (front-end framework)</a>
+                    is a free and open-source front-end web framework for designing websites and web applications.
+                    <a href="https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)" target="_blank">.  Read more..</a>.</p>
                 </div>
                 <div class="row">
-                  <li> <a href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
-                  <p class='technical'> <a href="https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)" target="_blank">W3Schools</a>
-                    W3Schools is a popular web site for learning web technologies online.  Content includes tutorials and references relating to HTML,
-                    CSS, JavaScript, PHP, SQL, Bootstrap, and jQuery. <a href="https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)" target="_blank">Read more..</a></p>
-                </div>
-                <div class="row">
-                  <li> <a href="https://jquery.com/" target="_blank">JQuery</a></li>
-                  <p class='technical'> <a href="https://en.wikipedia.org/wiki/JQuery(front-end_framework)" target="_blank">JQuery</a>
-                    jQuery is a cross-platform JavaScript library designed to simplify the client-side scripting of HTML.
-                    It is free, open-source software using the permissive MIT license.  Web analysis indicates that it is the most widely
-                     deployed JavaScript library by a large margin.</p>
-                </div>
-                <div class="row">
-                  <li> <a href="https://angularjs.org/" target="_blank">AngularJS</a></li>
-                  <p class='technical'> <a href="https://en.wikipedia.org/wiki/JQuery(front-end_framework)" target="_blank">AngularJS</a>
-                    AngularJS (commonly referred to as "Angular.js" or "AngularJS 1.X") is a JavaScript-based open-source front-end web application
-                    framework mainly maintained by Google and by a community of individuals and corporations to address many of the challenges encountered
-                    in developing single-page applications. </p>
-                </div>
-                <div class="row">
-                  <li> <a href="https://developers.arcgis.com/javascript/" target="_blank">ArcGIS JavaScript API for Developer</a></li>
-                  <p class='technical'> <a href="https://en.wikipedia.org/wiki/ArcGIS" target="_blank">ArcGIS JavaScript API</a>
-                    ArcGIS is a geographic information system <a href="http://www.arcgis.com/features/index.html" target="_blank">(GIS)</a>for working with maps and geographic information.
-                    <a href="https://en.wikipedia.org/wiki/ArcGIS" target="_blank">Read more..</a>.</p>
-                </div>
-<!--  -->
+                  <li> <label for=""><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></li></label>
+                    <p class='technical'> <a href="https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)" target="_blank">W3Schools</a>
+                      is a popular web site for learning web technologies online.  Content includes tutorials and references relating to HTML,
+                      CSS, JavaScript, PHP, SQL, Bootstrap, and jQuery. <a href="https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)" target="_blank">Read more..</a></p>
+                    </div>
+                  <div class="row">
+                    <li> <label for=""><a href="https://jquery.com/" target="_blank">JQuery</a> </label></li>
+                      <p class='technical'> <a href="https://en.wikipedia.org/wiki/JQuery(front-end_framework)" target="_blank">JQuery</a>
+                        is a cross-platform JavaScript library designed to simplify the client-side scripting of HTML.
+                        It is free, open-source software using the permissive MIT license.
+                        <a href="https://en.wikipedia.org/wiki/JQuery(front-end_framework)" target="_blank">Read more..</a></p>
+                    </div>
+                    <div class="row">
+                      <li> <label for=""><a href="https://angularjs.org/" target="_blank">AngularJS</a></label></li>
+                        <p class='technical'> <a href="https://en.wikipedia.org/wiki/AngularJS" target="_blank">AngularJS</a>
+                          (commonly referred to as "Angular.js" or "AngularJS 1.X") is a JavaScript-based open-source front-end web application
+                          framework <a href="https://en.wikipedia.org/wiki/AngularJS" target="_blank">  Read more..</a> </p>
+                      </div>
 
-                </ul>
-              </div>
-            </div>
+                      <div class="row">
+                        <li> <label for=""><a href="https://developers.arcgis.com/javascript/" target="_blank">ArcGIS JavaScript API for Developer</a></label></li>
+                          <p class='technical'> <a href="https://en.wikipedia.org/wiki/ArcGIS" target="_blank">ArcGIS JavaScript API</a>
+                            ArcGIS is a geographic information system <a href="http://www.arcgis.com/features/index.html" target="_blank">(GIS)</a>
+                            for working with maps and geographic information.
+                            <a href="https://en.wikipedia.org/wiki/ArcGIS" target="_blank">Read more..</a></p>
+                          </div>
+
+                      </ul>
+                    </div>
+                  </div>
 
       <!-- RIGHT PANEL: BIO SECTION -->
       <div class="col-3 right" id='right-panel' >

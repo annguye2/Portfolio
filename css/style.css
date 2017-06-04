@@ -5,21 +5,36 @@ html, body{
   width: 100%;
   border: 3px solid black;
 }
-#display-name{
+.tech{
+  margin-top: 0%;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+#resume{
+  padding-top: 0px;
+  padding-bottom: 0px;
+
+}
+h3{
+padding: 0px;
+
+}
+
+  #display-name{
   margin-left: 7%;
   margin-top: 3%;
 }
 #title{
   width: 100%;
   height: 50px;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   text-align: center;
   font-size: 2em;
   margin-bottom: 4%;
   color:#187DED
 }
 #project-section{
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   display: flex;
   flex-direction:column;
   justify-content: space-around;
@@ -27,7 +42,10 @@ html, body{
 #movie-sectino{
   overflow-y: scroll;
 }
-
+#col-1{
+  width: 5px;
+  padding:0px;
+}
 #social-group{
   margin-top: 2%;
 }
@@ -37,10 +55,13 @@ html, body{
 }
 .technical{
   font-size: 12px;
-  font-family:
+  padding:0px;
 }
 iframe{
-  font-size: 15px;
+  width: 100%;
+  height: 500px;
+  border-top-width: 0px;
+  margin-top: 1%;
 }
 h4{
   font-family: 'Bitter', serif;
@@ -96,7 +117,10 @@ html {
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
-
+span{
+  color:#331FF8;
+  text-align: center;
+}
 
 .menu li:hover {
     background-color: #0099cc;
@@ -117,11 +141,16 @@ html {
     padding: 15px;
 }
 .mid{
-  width: 570px;
+  width:85%;
   height: 600px;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
+  overflow-y: scroll;
+  overflow: visible;
 }
+.project-title{
+font-size: 12px;
 
+}
 #project-detail{
 margin-bottom: 10%;
 }
