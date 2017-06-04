@@ -52,10 +52,18 @@ h4{
 * {
   box-sizing: border-box;
 }
+#main-container{
+
+  padding-left: 0px;
+  padding-right: 0px;
+}
 .container{
   width: 90%;
-  background: #F5E8D6;
+  background: #E6FAE8;
   margin-top: 3%;
+  margin-left: 0px;
+  margin-right: 0px;
+
 }
 #footer-id{
   margin-left: 30%;
