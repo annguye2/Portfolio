@@ -28,9 +28,14 @@ html, body{
 #social-group{
   margin-top: 2%;
 }
+.movie{
+  font-size: 10px;
+  font-family:
+}
 
-
-
+h4{
+  font-family: 'Bitter', serif;
+}
 
 * {
     box-sizing: border-box;
@@ -109,7 +114,7 @@ html {
 }
 
 #project-detail{
-margin-bottom: 20%;
+margin-bottom: 10%;
 }
 /*  social icon section */
 #ul-1 {
