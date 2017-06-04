@@ -41,9 +41,10 @@
       <div class="col-3 menu">
         <ul>
           <li ng-click='ctrl.openFirstSection()'>General Assembely Training Projects </li>
+          <li ng-click='ctrl.openFourthSection()'>Technical Interest Website</li>
           <li ng-click='ctrl.openSecondSection()'>Resume</li>
           <li ng-click='ctrl.openThirdSection()'>Favorite Netflix Tivi shows</li>
-          <li ng-click='ctrl.openFourthSection()'>4 section</li>
+
         </ul>
       </div>
 
@@ -92,7 +93,7 @@
       <!-- MID-PANEL: THIRD SECTION -->
       <div class="col-6 mid" ng-show='ctrl.showThirdSectionBoolean'>
         <h3> <a href="https://www.netflix.com/" target="_blank">Favorite Netflix Tivi shows</a></h3>
-           <div class="row">
+           <div class="row" id='movie-section'>
              <ul>
                <div class="row">
                  <li> <a href="https://en.wikipedia.org/wiki/Blue_Bloods_(TV_series)"  target="_blank"> <h4>Blue Bloods</h4></a></li>
@@ -118,6 +119,10 @@
                  <p class='movie'>The Blue Planet is a British nature documentary series created and produced by the BBC. It was premiered on 12 September 2001 in the United Kingdom. It is narrated by David Attenborough.</p>
                </div>
 
+               <div class="row">
+                 <li> <a href="https://en.wikipedia.org/wiki/A_Cook%27s_Tour_(TV_series)"  target="_blank"> <h4>Anthony Bourdain: A Cook's Tour</h4></a></li>
+                 <p class='movie'>A Cook's Tour is a travel and food show that aired on the Food Network. Host Anthony Bourdain visits exotic countries and cities worldwide where hosts treat him to local culture and cuisine.</p>
+               </div>
 
              </ul>
            </div>
@@ -125,11 +130,55 @@
 
       <!-- MID-PANEL: FOURTH SECTION -->
       <div class="col-6 mid" ng-show='ctrl.showFourthSectionBoolean'>
-        <h1></h1>
-        <div>
-        </div>
-        <p>Rresume section </p>
-      </div>
+        <h3> Technical Resource Websites </h3>
+        <div class="row">
+          <ul>
+            <div class="row">
+              <li> <a href="https://stackoverflow.com/" target="_blank">Stack Overflow/Stack Overflow Community</a></li>
+              <p class='technical'> <a href="https://en.wikipedia.org/wiki/Stack_Overflow" target="_blank">Stack Overflow </a>
+                is a privately held website, the flagship site of the Stack Exchange Network,
+                created in 2008 by Jeff Atwood and Joel Spolsky. It was created to be a more
+                open alternative to earlier question and answer sites such as Experts-Exchange
+               <a href="https://en.wikipedia.org/wiki/Stack_Overflow" target="_blank">.  Read more..</a></p>
+              </div>
+              <div class="row">
+                <li> <a href="http://getbootstrap.com/" target="_blank">Bootstrap/Bootstrap Community</a></li>
+                <p class='technical'> <a href="https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)" target="_blank">Bootstrap (front-end framework)</a>
+                  Bootstrap is a free and open-source front-end web framework for designing websites and web applications. It contains HTML- and
+                  CSS-based design templates for typography, forms, buttons, navigation and other interface components, as well as optional
+                  JavaScript extensions<a href="https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)" target="_blank">.  Read more..</a>.</p>
+                </div>
+                <div class="row">
+                  <li> <a href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
+                  <p class='technical'> <a href="https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)" target="_blank">W3Schools</a>
+                    W3Schools is a popular web site for learning web technologies online.  Content includes tutorials and references relating to HTML,
+                    CSS, JavaScript, PHP, SQL, Bootstrap, and jQuery. <a href="https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)" target="_blank">Read more..</a></p>
+                </div>
+                <div class="row">
+                  <li> <a href="https://jquery.com/" target="_blank">JQuery</a></li>
+                  <p class='technical'> <a href="https://en.wikipedia.org/wiki/JQuery(front-end_framework)" target="_blank">JQuery</a>
+                    jQuery is a cross-platform JavaScript library designed to simplify the client-side scripting of HTML.
+                    It is free, open-source software using the permissive MIT license.  Web analysis indicates that it is the most widely
+                     deployed JavaScript library by a large margin.</p>
+                </div>
+                <div class="row">
+                  <li> <a href="https://angularjs.org/" target="_blank">AngularJS</a></li>
+                  <p class='technical'> <a href="https://en.wikipedia.org/wiki/JQuery(front-end_framework)" target="_blank">AngularJS</a>
+                    AngularJS (commonly referred to as "Angular.js" or "AngularJS 1.X") is a JavaScript-based open-source front-end web application
+                    framework mainly maintained by Google and by a community of individuals and corporations to address many of the challenges encountered
+                    in developing single-page applications. </p>
+                </div>
+                <div class="row">
+                  <li> <a href="https://developers.arcgis.com/javascript/" target="_blank">ArcGIS JavaScript API for Developer</a></li>
+                  <p class='technical'> <a href="https://en.wikipedia.org/wiki/ArcGIS" target="_blank">ArcGIS JavaScript API</a>
+                    ArcGIS is a geographic information system <a href="http://www.arcgis.com/features/index.html" target="_blank">(GIS)</a>for working with maps and geographic information.
+                    <a href="https://en.wikipedia.org/wiki/ArcGIS" target="_blank">Read more..</a>.</p>
+                </div>
+<!--  -->
+
+                </ul>
+              </div>
+            </div>
 
       <!-- RIGHT PANEL: BIO SECTION -->
       <div class="col-3 right" id='right-panel' >

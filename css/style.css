@@ -24,6 +24,9 @@ html, body{
   flex-direction:column;
   justify-content: space-around;
 }
+#movie-sectino{
+  overflow-y: scroll;
+}
 
 #social-group{
   margin-top: 2%;
@@ -32,7 +35,13 @@ html, body{
   font-size: 10px;
   font-family:
 }
-
+.technical{
+  font-size: 12px;
+  font-family:
+}
+iframe{
+  font-size: 15px;
+}
 h4{
   font-family: 'Bitter', serif;
 }
